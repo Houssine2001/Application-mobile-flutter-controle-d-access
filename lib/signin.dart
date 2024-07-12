@@ -63,7 +63,7 @@ class _UserListState extends State<UserList> {
         _users.remove(user);
       });
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('L\'utilisateur ${user.username} a été supprimé.')),
+        SnackBar(content: Text('L\'utilisateur ${user.username} a été supprimée.')),
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(

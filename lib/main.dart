@@ -104,7 +104,7 @@ class _MyAppState extends State<MyApp> {
     );
 
     if (response.statusCode == 200) {
-      print('Notification sent successfully.');
+      print('Notification sent successfullyy.');
 
       // Display the notification on the device
      // showNotification(title, body);
